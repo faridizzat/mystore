@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/mystore/clientlibs"/>
+    <filter root="/apps/mystore/components"/>
+    <filter root="/apps/mystore/i18n"/>
+</workspaceFilter>

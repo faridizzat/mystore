@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0"
+          xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+    <jcr:content
+            jcr:primaryType="cq:PageContent"
+            jcr:title="Test Page"
+            sling:resourceType="mystore/components/structure/master-page"
+            cq:lastModified="{Date}2025-01-01T00:00:00.000+00:00"
+            cq:lastModifiedBy="admin"/>
+</jcr:root>

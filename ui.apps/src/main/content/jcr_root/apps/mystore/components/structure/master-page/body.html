@@ -1,0 +1,11 @@
+<header>
+    <sly data-sly-include="mystore-header.html"/>
+</header>
+
+<sly data-sly-use.templatedContainer="com.day.cq.wcm.foundation.TemplatedContainer"
+     data-sly-repeat.child="${templatedContainer.structureResources}"
+     data-sly-resource="${child.path @ resourceType=child.resourceType, decorationTagName='div'}"/>
+
+<footer>
+    <sly data-sly-include="mystore-footer.html"/>
+</footer>
